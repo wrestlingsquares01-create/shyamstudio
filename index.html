@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#100d11">
+  <meta name="description" content="THE STUDIO — distinctive websites built with intention. Enter a creative space.">
+  <title>THE STUDIO — Enter a different space</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js" defer></script><script src="script.js" defer></script>
+</head>
+<body data-page="entry" class="entry-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="pointer-light" id="pointerLight" aria-hidden="true"></div>
+  <div class="entry-frame">
+    <header class="masthead entry-masthead">
+      <a class="wordmark" href="index.html" aria-label="The Studio home"><span class="mark">✳</span> THE STUDIO<span class="wordmark-dot">.</span></a>
+      <span class="mono-label masthead-end">INDEPENDENT DIGITAL STUDIO <span class="tiny-line"></span> 2026</span>
+    </header>
+
+    <main id="main" class="entry-main">
+      <div class="entry-copy reveal visible">
+        <span class="eyebrow"><span class="eyebrow-line"></span> A SPACE FOR DIFFERENT IDEAS</span>
+        <h1 class="entry-heading">Beyond<br><em>ordinary.</em></h1>
+        <p class="entry-sub">Thoughtful websites. Unexpected details.<br>One place to begin.</p>
+        <form class="entry-form" id="entryForm" novalidate>
+          <label for="entryName" class="field-label">WHAT SHOULD WE CALL YOU?</label>
+          <div class="entry-input-wrap">
+            <input id="entryName" name="name" placeholder="Your name" maxlength="60" autocomplete="given-name" required>
+            <button class="round-submit" aria-label="Continue" type="submit"><span aria-hidden="true">↗</span></button>
+          </div>
+          <p class="form-message" id="entryMessage" role="alert" aria-live="polite"></p>
+        </form>
+        <div class="entry-bottom"><span class="mini-star">✳</span><span>MADE FOR CURIOUS MINDS</span><span class="arrow-down" aria-hidden="true">↘</span></div>
+      </div>
+      <div class="entry-visual" aria-hidden="true" data-tilt>
+        <div class="sculpture-halo"></div>
+        <div class="sculpture-ring sculpture-ring-one"></div>
+        <div class="sculpture-ring sculpture-ring-two"></div>
+        <img src="assets/sculpture.svg" alt="" class="sculpture-art">
+        <div class="float-tag float-tag-top">FORM / FEELING</div>
+        <div class="float-tag float-tag-bottom">BUILT TO BE REMEMBERED <span>✦</span></div>
+        <span class="visual-index">FIG. 01 — NEW PERSPECTIVES</span>
+      </div>
+    </main>
+
+    <footer class="entry-footer"><span>DESIGN IS HOW IT FEELS.</span><span>SCROLL LESS. EXPERIENCE MORE.</span><span>© <span data-year>2026</span></span></footer>
+  </div>
+  <div id="siteToast" class="toast" role="status" hidden></div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-label="Abstract folded-metal sculpture">
+ <defs>
+  <linearGradient id="metalA" x1=".08" y1=".12" x2=".93" y2=".84" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f5dcda"/><stop offset=".15" stop-color="#ce9a9d"/><stop offset=".29" stop-color="#603544"/><stop offset=".48" stop-color="#e6b9b4"/><stop offset=".63" stop-color="#7c4b63"/><stop offset=".79" stop-color="#2c1c2b"/><stop offset="1" stop-color="#c08a8b"/></linearGradient>
+  <linearGradient id="metalB" x1=".05" y1="1" x2=".94" y2="0"><stop stop-color="#281726"/><stop offset=".18" stop-color="#7f4b66"/><stop offset=".38" stop-color="#e9bfb6"/><stop offset=".55" stop-color="#543044"/><stop offset=".78" stop-color="#c19eaa"/><stop offset="1" stop-color="#f7d9c9"/></linearGradient>
+  <linearGradient id="metalC" x1=".1" y1="0" x2=".8" y2="1"><stop stop-color="#f0dfd9"/><stop offset=".15" stop-color="#ac8295"/><stop offset=".42" stop-color="#352134"/><stop offset=".62" stop-color="#ba8188"/><stop offset=".84" stop-color="#eed7ca"/><stop offset="1" stop-color="#684052"/></linearGradient>
+  <radialGradient id="shine"><stop stop-color="#ffdee1" stop-opacity=".5"/><stop offset="1" stop-color="#ffdee1" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="inner"><feGaussianBlur stdDeviation="4"/></filter>
+ </defs>
+ <ellipse cx="387" cy="627" rx="228" ry="65" fill="#140d16" opacity=".66" filter="url(#shadow)"/>
+ <g transform="translate(10 3) rotate(-16 375 380)">
+  <path d="M133 448C69 359 152 183 291 136c133-44 276 34 329 138 50 100 25 236-74 327-78 71-221 74-316 3-71-53-115-144-104-236 11-98 99-166 188-163 96 3 186 82 195 164 11 111-57 184-142 201-66 13-153-31-168-104 56 39 115 24 156 1 48-28 72-69 61-118-9-41-57-73-110-72-54 1-92 46-100 105-11 81 32 158 103 198 64 36 154 14 208-30 61-50 69-151 32-218-41-74-128-117-210-100-79 17-131 76-153 148-19 62-9 110 12 168Z" fill="url(#metalA)" stroke="#f1c2c0" stroke-width="2.2" stroke-opacity=".48"/>
+  <path d="M214 153c90-83 236-74 327-13 88 60 153 172 134 278-20 114-123 202-236 220-95 14-194-21-254-89 114 71 229 63 299 4 72-61 103-137 90-210-12-73-65-133-125-162-78-37-164-24-235-28Z" fill="url(#metalB)" stroke="#fbe4d5" stroke-width="2" stroke-opacity=".4"/>
+  <path d="M105 315c20-87 92-158 181-180 91-24 194 17 251 71-90-35-169-24-223 9-58 36-76 82-73 147 2 75 56 113 104 120-90 23-176-23-208-69-38-54-45-52-32-98Z" fill="url(#metalC)" stroke="#dfb6bb" stroke-width="2" stroke-opacity=".5"/>
+  <path d="M126 331c27-114 129-204 240-207" fill="none" stroke="#fff5ed" stroke-width="7" stroke-linecap="round" opacity=".35" filter="url(#inner)"/>
+  <path d="M487 163c111 65 147 193 119 278" fill="none" stroke="#fff7e8" stroke-width="5" stroke-linecap="round" opacity=".25" filter="url(#inner)"/>
+ </g>
+ <circle cx="235" cy="205" r="170" fill="url(#shine)" opacity=".3"/>
+ <g fill="#f0d7c6"><circle cx="134" cy="233" r="4"/><circle cx="642" cy="527" r="3"/><circle cx="541" cy="89" r="2.5"/></g>
+</svg>
