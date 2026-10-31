@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#12111b">
+<meta name="description" content="Shyam Studio — expressive websites for brands, creators and ideas. Explore three live design demos and start your project.">
+<meta property="og:title" content="Shyam Studio — Websites with character">
+<meta property="og:description" content="Digital experiences worth remembering. Explore the work and start a project.">
+<title>Shyam Studio® — Websites with character</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script src="config.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#work">Skip to work</a>
+<div class="noise" aria-hidden="true"></div>
+<div id="scrollProgress" class="scroll-progress" aria-hidden="true"></div>
+<header class="header" id="header">
+  <a href="#top" class="brand" aria-label="Shyam Studio, home"><span class="brand-mark">s<span>✳</span></span><span>shyam<span class="brand-dot">.</span>studio</span></a>
+  <nav class="nav" id="siteNav" aria-label="Main navigation">
+    <a href="#work">Work</a><a href="#services">Expertise</a><a href="#contact">Contact</a>
+  </nav>
+  <a href="#contact" class="header-cta">LET'S TALK <span aria-hidden="true">↗</span></a>
+  <button class="menu-btn" id="menuBtn" aria-controls="siteNav" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span></button>
+</header>
+<main>
+<section class="hero" id="top" aria-labelledby="heroTitle">
+  <div class="hero-grid-lines" aria-hidden="true"></div>
+  <div class="hero-content">
+    <div class="eyebrow hero-eyebrow"><span class="status-dot"></span> INDEPENDENT DIGITAL STUDIO <span class="hero-issue">/ EST. 2026</span></div>
+    <h1 id="heroTitle" class="hero-heading">Websites<br><em>with</em> <span>character<span class="period">.</span></span></h1>
+    <p class="hero-desc">For people building something worth noticing.</p>
+    <div class="hero-buttons"><a class="button button-light" href="#work">EXPLORE WORK <span>↗</span></a><a class="button-text" href="#contact">HAVE A PROJECT? <span>↗</span></a></div>
+  </div>
+  <div class="hero-sculpture" id="heroSculpture" aria-hidden="true"><div class="sculpture-glow"></div><img src="hero-sculpture.svg" alt="" fetchpriority="high"><span class="sculpture-label label-a">DESIGN AS<br>AN EXPERIENCE ↗</span><span class="sculpture-label label-b">FORM / 001</span></div>
+  <div class="hero-bottom"><div>SCROLL TO DISCOVER <span>↓</span></div><div class="hero-pagination">01 — 04</div></div>
+</section>
+<div class="divider-band"><span>DESIGN</span><b>✳</b><span>DEVELOP</span><b>✳</b><span>DELIVER</span><b>✳</b><span class="divider-band-small">SHYAM STUDIO / SELECTED WORK 2026</span></div>
+<section id="work" class="work section" aria-labelledby="workTitle">
+  <div class="section-top reveal"><div class="section-index">01 / THE WORK</div><div class="section-note">Three directions. Three different stories.</div></div>
+  <div class="section-heading reveal"><h2 id="workTitle">Selected <em>work.</em></h2><span class="heading-count">( 03 )</span></div>
+  <div class="work-grid">
+    <a class="project project-vela reveal" href="vela.html" target="_blank" rel="noopener" aria-label="Open Vela Café live demo">
+      <div class="project-visual"><div class="project-badge">01 / FOOD & LIFESTYLE</div><div class="vela-visual"><span class="vela-small">A PLACE TO SLOW DOWN</span><span class="vela-name">véla<span>®</span></span><img src="coffee-art.svg" alt="Illustrated latte in sculptural cup" loading="lazy"><span class="vela-bottom">GOOD DAYS BEGIN SLOW.</span></div><span class="project-open">↗</span></div>
+      <div class="project-info"><div><h3>Véla Café</h3><p>Editorial café experience</p></div><span>LIVE DEMO ↗</span></div>
+    </a>
+    <a class="project project-atelier reveal" href="atelier.html" target="_blank" rel="noopener" aria-label="Open Atelier Forma live demo">
+      <div class="project-visual"><div class="project-badge">02 / INTERIORS & DESIGN</div><div class="atelier-visual"><span class="atelier-tag">FORM IS A FEELING.</span><div class="architecture"><i class="arch-left"></i><i class="arch-arch"></i><i class="arch-ball"></i></div><span class="atelier-name">FORMA<span>®</span></span></div><span class="project-open">↗</span></div>
+      <div class="project-info"><div><h3>Atelier Forma</h3><p>Art-direction for interiors</p></div><span>LIVE DEMO ↗</span></div>
+    </a>
+    <a class="project project-voltage reveal" href="voltage.html" target="_blank" rel="noopener" aria-label="Open Voltage creator demo">
+      <div class="project-visual"><div class="project-badge">03 / CREATORS & CULTURE</div><div class="voltage-visual"><span class="voltage-overline">IDEAS AREN'T QUIET.</span><span class="voltage-title">MAKE<br><i>NOISE.</i></span><span class="voltage-disc"></span><span class="voltage-under">VOLTAGE / CREATIVE HOUSE</span></div><span class="project-open">↗</span></div>
+      <div class="project-info"><div><h3>Voltage</h3><p>Bold launch for creators</p></div><span>LIVE DEMO ↗</span></div>
+    </a>
+  </div>
+  <p class="work-note reveal">Concept websites created to demonstrate design possibilities. Not client commissions.</p>
+</section>
+<section class="services section" id="services" aria-labelledby="servicesTitle">
+ <div class="section-top reveal"><div class="section-index">02 / THE EXPERTISE</div><div class="section-note">Only what your idea needs.</div></div>
+ <div class="services-layout"><h2 class="services-title reveal" id="servicesTitle">Small idea.<br><em>Big presence.</em></h2><div class="services-list reveal">
+  <div class="service"><span>01</span><h3>Business websites</h3><span class="service-arrow">↗</span></div>
+  <div class="service"><span>02</span><h3>Personal portfolios</h3><span class="service-arrow">↗</span></div>
+  <div class="service"><span>03</span><h3>Landing pages</h3><span class="service-arrow">↗</span></div>
+  <p class="services-foot">Clean. Responsive. Built for real people.</p>
+ </div></div>
+</section>
+<section class="contact section" id="contact" aria-labelledby="contactTitle">
+ <div class="contact-glow" aria-hidden="true"></div>
+ <div class="section-top reveal"><div class="section-index">03 / START SOMETHING</div><div class="section-note">Have something in mind?</div></div>
+ <div class="contact-layout">
+  <div class="contact-intro reveal"><h2 id="contactTitle">Let's make<br><em>it real.</em><span>✳</span></h2><p>Tell me the idea. I'll get back to you.</p><div class="contact-meta"><span>✦ AVAILABLE FOR SELECT PROJECTS</span><span>INDIA · REMOTE</span></div></div>
+  <form id="enquiryForm" class="enquiry-form reveal" novalidate>
+   <div class="fieldrow"><label>Your name<input name="customer_name" placeholder="What should I call you?" maxlength="100" autocomplete="name" required></label><label>Email<input name="contact_email" type="email" placeholder="you@example.com" maxlength="254" autocomplete="email" required></label></div>
+   <label>What are we making?<select name="website_type" required><option value="">Choose a project type</option><option>Business website</option><option>Personal portfolio</option><option>Landing page</option><option>Other website</option></select></label>
+   <label>Estimated budget<select name="budget" required><option value="">Select a range</option><option>Under ₹1,000</option><option>₹1,000 – ₹3,000</option><option>₹3,000 – ₹6,000</option><option>₹6,000+</option><option>Not decided</option></select></label>
+   <label>A little about your idea<textarea name="requirements" placeholder="A few sentences about your project…" minlength="10" maxlength="4000" rows="4" required></textarea></label>
+   <div class="form-actions"><button class="button button-submit" id="sendBtn" type="submit">SEND MY ENQUIRY <span>↗</span></button><p id="formStatus" class="form-status" role="status" aria-live="polite">No payment needed to enquire.</p></div>
+   <button type="button" class="draft-btn" id="draftBtn">DOWNLOAD MY ENQUIRY AS A DRAFT ↓</button>
+  </form>
+ </div>
+</section>
+</main>
+<footer class="footer"><a class="brand footer-brand" href="#top">shyam<span class="brand-dot">.</span>studio</a><span>INDEPENDENT BY DESIGN.</span><span>© <span id="year">2026</span> SHYAM STUDIO</span><a href="#top" aria-label="Back to top">BACK TO TOP ↑</a></footer>
+</body>
+</html>
